@@ -6,7 +6,11 @@ import sys
 
 def main():
     """Run administrative tasks."""
+<<<<<<< HEAD
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'meal_mate.settings')
+=======
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mealmate_backend.settings')
+>>>>>>> 7211d4d255e6b23f33d6f5d42e37df7466e925ed
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
