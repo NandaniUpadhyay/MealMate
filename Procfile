@@ -1,0 +1,1 @@
+web: gunicorn mealmate_backend.wsgi
